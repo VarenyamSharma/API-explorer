@@ -4,12 +4,11 @@ import { Request } from './entities/Request';
 const config: Options = {
   entities: [Request],
   dbName: process.env.DB_NAME,
-  host: process.env.DB_HOST,
-  port: Number(process.env.DB_PORT),
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  type: 'postgresql',
+  clientUrl: process.env.DB_CONNECTION_STRING, // Connection string for MongoDB
+  type: 'mongodb',
   // Consider adding migrations and other options for production
+  // Migrations for MongoDB might have different considerations or might not be used
+  // in the same way as with SQL databases.
   // migrations: {
   //   tableName: 'mikroorm_migrations', // name of database table for migrations
   //   path: './migrations', // path to folder with migration files
