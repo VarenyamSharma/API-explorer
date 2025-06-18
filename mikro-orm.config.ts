@@ -4,7 +4,7 @@ import { Request } from './entities/Request';
 const config: Options = {
   entities: [Request],
   dbName: process.env.DB_NAME,
-  clientUrl: process.env.DB_CONNECTION_STRING, // Connection string for MongoDB
+  clientUrl: 'mongodb://localhost:27017',
   type: 'mongodb',
   // Consider adding migrations and other options for production
   // Migrations for MongoDB might have different considerations or might not be used
