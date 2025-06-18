@@ -3,7 +3,7 @@ import { Request } from './entities/Request';
 
 const config: Options = {
   entities: [Request],
-  dbName: process.env.DB_NAME,
+  dbName: 'apiexplorer',
   clientUrl: 'mongodb://localhost:27017',
   type: 'mongodb',
   // Consider adding migrations and other options for production
