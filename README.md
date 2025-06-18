@@ -1,4 +1,4 @@
-# 🌐 REST Client Explorer
+# 🌐 API EXPLORER -  REST Client Explorer
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61DAFB)
